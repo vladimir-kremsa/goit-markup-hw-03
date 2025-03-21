@@ -186,6 +186,12 @@ a {
   background: #f4f4fd;
 }
 
+.tem-conteiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .team-title {
   font-weight: 700;
   text-transform: capitalize;
@@ -194,6 +200,14 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .team-item {
@@ -219,6 +233,12 @@ a {
 
 /* Our Portfolio */
 
+.portfolio-conteiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .gallery-title {
   font-weight: 700;
   font-size: 36px;
@@ -227,6 +247,14 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.gallery-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .gallery-subtitle {
