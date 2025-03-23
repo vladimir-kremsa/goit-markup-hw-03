@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 /* Conteiner */
 
 .conteiner {
@@ -116,10 +120,12 @@ a {
 
 .main-page {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-page-title {
   font-weight: 700;
+  max-width: 496px;
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
@@ -135,6 +141,15 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  display: block;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 56px;
+  min-width: 169px;
+  margin-top: 48px;
+  border: none;
 }
 
 .main-page-title-button:hover,
@@ -151,12 +166,15 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  display: none;
 }
 
 .benefits-list {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .benefits-item {
