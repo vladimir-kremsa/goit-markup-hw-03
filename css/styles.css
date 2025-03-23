@@ -333,6 +333,9 @@ img {
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+}
+
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
