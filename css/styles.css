@@ -211,12 +211,6 @@ img {
   padding: 120px 0;
 }
 
-.tem-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .team-title {
   font-weight: 700;
   text-transform: capitalize;
