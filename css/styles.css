@@ -27,6 +27,8 @@ a {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* Conteiner */
@@ -180,14 +182,10 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .benefits-item {
-  width: calc((100%-72px) / 4);
-  padding: 120px 0;
-  display: block;
+  width: calc((100% - 72px) / 4);
 }
 
 .subtitle {
@@ -285,7 +283,6 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
